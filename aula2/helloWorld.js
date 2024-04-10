@@ -6,6 +6,6 @@ const rl = readline.createInterface({
 });
 
 rl.question('qual seu nome? ', (nome) => {
-    console.log('olá, ${nome}! bem vindo ao node.js.');
+    console.log(`olá, ${nome}! bem vindo ao node.js.`);
     rl.close();
 });
